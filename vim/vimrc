@@ -33,6 +33,9 @@ highlight colorcolumn ctermbg=Black
 "Maps omnicomplertion to <C-f>
 inoremap <C-f> <C-x><C-O>
 
+"Maps pastetoggle to <F4>
+set pastetoggle=<F4>
+
 "vim-gitgutter settings
 let g:gitgutter_signs = 1
 let g:gitgutter_realtime = 1
