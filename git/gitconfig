@@ -14,6 +14,7 @@
   pat = !git pa && git pt
   pu = push -u
   pua = push -u --all
+  pub = !git push --all && git push --tags && git push --all acquia && git push --tags acquia
   aa = add -A :/
   fi = flow init -d
   fs = flow feature start
@@ -29,6 +30,7 @@
   rl = reflog
   rb = rebase
   freebase = pull --rebase
+  tags = !git tag | sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n
 [push]
   default = simple
 [color]
