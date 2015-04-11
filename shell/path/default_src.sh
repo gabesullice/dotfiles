@@ -1,3 +1,3 @@
 #Go
-export GOPATH=$HOME/development/go
+export GOPATH=$DOCROOT/go
 export PATH=$PATH:$GOPATH/bin
