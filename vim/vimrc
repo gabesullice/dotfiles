@@ -3,6 +3,9 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 call pathogen#helptags()
 
+"Set leader key
+let mapleader = ","
+
 "Set solarized color scheme
 set background=dark
 colorscheme solarized
@@ -42,6 +45,9 @@ let g:gitgutter_realtime = 1
 
 "vim-go settings
 let g:go_disable_autoinstall = 0
+
+"unite.vim settings
+nnoremap <Leader>f :Unite -start-insert buffer file_rec<CR>
 
 "neocomplete settings
 let g:neocomplete#enable_at_startup = 1
