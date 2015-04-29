@@ -6,6 +6,10 @@ call pathogen#helptags()
 "Set leader key
 let mapleader = ","
 
+"Tab cycle through buffers
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprevious<CR>
+
 "Set solarized color scheme
 set background=dark
 colorscheme solarized
