@@ -46,8 +46,8 @@ let g:gitgutter_realtime = 1
 "vim-go settings
 let g:go_disable_autoinstall = 0
 
-"unite.vim settings
-nnoremap <Leader>f :Unite -start-insert buffer file_rec<CR>
+"vim-fastunite settings
+map <C-p> [unite]p
 
 "neocomplete settings
 let g:neocomplete#enable_at_startup = 1
