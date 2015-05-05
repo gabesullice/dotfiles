@@ -29,6 +29,7 @@
   clsd = log --graph --decorate --pretty=oneline --abbrev-commit
   rl = reflog
   rb = rebase
+  mff = merge --no-ff
   freebase = pull --rebase
   tags = !git tag | sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n
 [push]
