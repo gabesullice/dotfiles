@@ -1,4 +1,5 @@
-if command chruby -v >/dev/null 2>&1; then
+if [ -f '/usr/local/opt/chruby/share/chruby/chruby.sh' ]; then
+#if command chruby -v >/dev/null 2>&1; then
   # Sets up chruby
   source /usr/local/opt/chruby/share/chruby/chruby.sh
   source /usr/local/opt/chruby/share/chruby/auto.sh
