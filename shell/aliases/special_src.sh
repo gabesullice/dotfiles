@@ -24,3 +24,6 @@ alias vim_alias="vim ~/.drush"
 
 # MAC only
 alias dnsmasq_restart="sudo launchctl stop homebrew.mxcl.dnsmasq && sudo launchctl start homebrew.mxcl.dnsmasq"
+
+# Clone the e3 StarterKit
+alias starterkit="git clone --recursive git@github.com:elevatedthird/starterkit"
