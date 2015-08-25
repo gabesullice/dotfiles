@@ -14,11 +14,6 @@ nnoremap <S-Tab> :bprevious<CR>
 set background=dark
 colorscheme solarized
 
-"Ensure proper font in MacVim
-if has('gui_running')
-  set gfn=Monaco:h14
-endif
-
 "Sets vim backup directories
 set backupdir=$HOME/.vimbackups//,/tmp//
 set directory=$HOME/.vimbackups//,/tmp//
