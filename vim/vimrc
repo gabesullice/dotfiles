@@ -61,7 +61,14 @@ map <F7> :NERDTreeToggle<CR>
 source $HOME/.vim/source/gotags
 
 "Vdebug
-let g:vdebug_options = {'path_maps': {"/vagrant_data": "/Users/gsullice/development/sites"}, 'server': '', 'break_on_open': 0}
+"let g:vdebug_options = {'path_maps': {"/vagrant_data": "/Users/gsullice/development/sites"}, 'server': '', 'break_on_open': 0}
+let g:vdebug_options= {
+      \ "port" : 9000,
+      \ "server" : 'cga',
+      \ "timeout" : 30,
+      \ "break_on_open" : 0,
+      \ "path_maps" : {"/var/www/site/docroot": "/Users/gsullice/development/sites/cga.e3/docroot"}
+      \}
 "let g:vdebug_options['path_maps'] = {"/vagrant_data": "/Users/gsullice/development/sites"}
 "let g:vdebug_options['server'] = ""
 
