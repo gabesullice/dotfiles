@@ -12,8 +12,5 @@ alias dotfiles="cd $HOME/.dotfiles"
 # Edit Hosts file
 alias vim_hosts="sudo vim /etc/hosts"
 
-# Clone the e3 StarterKit
-alias starterkit="git clone --recursive git@github.com:elevatedthird/starterkit"
-
 # Helper to copy a public key to the clipboard
 alias pubkey="xclip -sel c ~/.ssh/id_rsa.pub"
