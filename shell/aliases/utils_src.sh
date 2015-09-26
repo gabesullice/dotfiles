@@ -5,9 +5,6 @@ _mkcd() {
 }
 alias mkcd=_mkcd
 
-# MAC ONLY
-# Copy a file passed as the first parameter to the clipboard
-catcopy() {
-    cat $1 | pbcopy
-}
-alias catcopy=catcopy
+# Copies the content of a file to the clipboard
+# Example `clip ~/.ssh/id_rsa.pub`
+clip="xclip -sel c"
