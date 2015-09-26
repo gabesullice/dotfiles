@@ -47,7 +47,7 @@ setup_dotfile $HOME/.dotfiles/git/git_template $HOME/.git_template
 setup_dotfile $HOME/.dotfiles/bash/bashrc $HOME/.bashrc 
 
 # Tmux configuration
-setup_dotfile $HOME/.dotfiles/tmux/.tmux.conf $HOME/.tmux.conf
+setup_dotfile $HOME/.dotfiles/tmux/tmux.conf $HOME/.tmux.conf
 
 # mcabber configuration
 setup_dotfile $HOME/.dotfiles/mcabber/mcabber $HOME/.mcabber
