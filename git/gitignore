@@ -6,6 +6,3 @@ my.Makefile*
 
 # IDE files
 *.idea*
-
-# bundler
-*.bundle*
