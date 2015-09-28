@@ -7,4 +7,4 @@ alias mkcd=_mkcd
 
 # Copies the content of a file to the clipboard
 # Example `clip ~/.ssh/id_rsa.pub`
-clip="xclip -sel c"
+alias clip="xclip -sel c"
