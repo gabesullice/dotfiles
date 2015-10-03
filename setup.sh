@@ -37,6 +37,8 @@ setup_dir $HOME/.vimbackups
 setup_dotfile $HOME/.dotfiles/vim/vim $HOME/.vim 
 setup_dotfile $HOME/.dotfiles/vim/vimrc $HOME/.vimrc 
 
+# Password store
+setup_dotfile $HOME/.dotfiles/password-store $HOME/.password-store
 
 # Git configuration
 setup_dotfile $HOME/.dotfiles/git/gitconfig $HOME/.gitconfig 
