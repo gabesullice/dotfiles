@@ -94,3 +94,6 @@
 [submodule "vim/vim/bundle/ansible-vim"]
 	path = vim/vim/bundle/ansible-vim
 	url = https://github.com/pearofducks/ansible-vim.git
+[submodule "password-store"]
+	path = password-store
+	url = git@github.com:gabesullice/password-store.git
