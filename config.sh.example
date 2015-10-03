@@ -1,2 +1,5 @@
+# The path to your projects root
+export PROJECTROOT=$HOME/development/sites
+
 # The path to your development docroot
-export DOCROOT=$HOME/development/sites
+export DOCROOT=$PROJECTROOT/sites
