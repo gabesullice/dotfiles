@@ -97,3 +97,6 @@
 [submodule "password-store"]
 	path = password-store
 	url = git@github.com:gabesullice/password-store.git
+[submodule "public-keys"]
+	path = public-keys
+	url = git@github.com:gabesullice/public-keys.git
