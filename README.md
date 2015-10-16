@@ -16,7 +16,7 @@ Run these 4 commands; don't forget the `--recursive`.
     sudo chmod u+x setup.sh
     ./setup.sh
 
-Next, you'll need to configure a thing or two. Open up config.sh and update it according to your local set up. Then, you're ready to source the new .bashrc file.
+Next, you'll need to configure a thing or two. Copy config.sh.example to config.sh and update it according to your local set up. Then, you're ready to source the new .bashrc file.
 
     cd $HOME/.dotfiles/
     vim config.sh # or you can use your 'other' favorite text editor
