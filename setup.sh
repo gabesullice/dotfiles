@@ -1,4 +1,4 @@
-#/usr/bin/bash
+#!/bin/bash
 
 setup_dir() {
   if [ ! -d $1 ]
