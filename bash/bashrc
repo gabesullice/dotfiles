@@ -23,3 +23,6 @@ source $HOME/.dotfiles/terminal/colors/arch_src.sh
 source $HOME/.dotfiles/terminal/colors/ubuntu_src.sh
 source $HOME/.dotfiles/tmux/default_src.sh
 source $HOME/.dotfiles/vim/default_src.sh
+
+# added by travis gem
+[ -f /home/gabe/.travis/travis.sh ] && source /home/gabe/.travis/travis.sh

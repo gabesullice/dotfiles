@@ -1,5 +1,4 @@
 stage_file_proxy
-ansible
 my.Makefile*
 
 *.swp
