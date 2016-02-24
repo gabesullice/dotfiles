@@ -37,9 +37,9 @@
 [color]
   ui = true
 [init]
-  templatedir = ~/.git_template
+  #templatedir = ~/.git_template
 [core]
   excludesfile = ~/.gitignore
   editor = vim
   autocrlf = input
-  fileMode = false
+  filemode = false
