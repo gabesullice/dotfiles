@@ -67,9 +67,6 @@
 [submodule "vim/vim/bundle/neosnippet-snippets"]
 	path = vim/vim/bundle/neosnippet-snippets
 	url = git@github.com:gabesullice/neosnippet-snippets.git
-[submodule "vim/vim/bundle/vim-mollasses"]
-	path = vim/vim/bundle/vim-mollasses
-	url = git@github.com:0x0dea/vim-molasses.git
 [submodule "vim/vim/bundle/vim-javascript"]
 	path = vim/vim/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
