@@ -12,6 +12,7 @@ nnoremap <S-Tab> :bprevious<CR>
 
 "Set solarized color scheme
 set background=dark
+"set background=light
 colorscheme solarized
 
 "Sets vim backup directories
@@ -66,11 +67,12 @@ let g:vdebug_options= {
       \ "port" : 9000,
       \ "timeout" : 30,
       \ "break_on_open" : 0,
-      \ "path_maps" : {"/var/www/html": "/home/gabe/projects/aten/ltlt/drupal/docroot"}
+      \ "path_maps" : {"/var/www/html": "/home/gabe/projects/aten/lulzbot/drupal/public_html"},
       \}
 "\ "path_maps" : {"/var/www": ""}
 let g:vdebug_options["watch_window_style"] = "compact"
-let g:vdebug_options['path_maps'] = {"/var/www": "/home/gabe/projects/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www": "/home/gabe/projects/docroot"}
+let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/ltlt/drupal/docroot"}
 "let g:vdebug_options['server'] = ""
 
 set path=$PWD/**
