@@ -31,6 +31,10 @@ setup_dotfile() {
 
 # Global configurations
 setup_dir $HOME/dotfile-bkp
+setup_dir $HOME/.config
+
+# i3 configurations
+setup_dotfile $HOME/.dotfiles/i3 $HOME/.config/i3
 
 # Vim configurations
 setup_dir $HOME/.vimbackups 
