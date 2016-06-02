@@ -88,9 +88,9 @@
 [submodule "vim/vim/bundle/vim-unite-tag"]
 	path = vim/vim/bundle/vim-unite-tag
 	url = git@github.com:tsukkee/unite-tag
-[submodule "vim/vim/bundle/ansible-vim"]
-	path = vim/vim/bundle/ansible-vim
-	url = https://github.com/pearofducks/ansible-vim.git
 [submodule "public-keys"]
 	path = public-keys
 	url = git@github.com:gabesullice/public-keys.git
+[submodule "vim/vim/bundle/syntastic"]
+	path = vim/vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
