@@ -4,7 +4,7 @@
 [alias]
   aa = add -A :/
   br = branch -av
-  brd = branch -d
+  brd = branch -D
   clr = clone --recursive
   clsd = log --graph --decorate --pretty=oneline --abbrev-commit
   cm = commit
