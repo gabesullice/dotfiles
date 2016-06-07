@@ -174,3 +174,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 
 # # Touchpad controls
 # bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+
+# Take a screenshot
+bindsym Print exec import -window root ~/Pictures/screenshot-`date +%Y-%m-%d-%k.%M.%S`.png
+
+# Toggle display between built-in and monitor
+bindsym XF86Search exec ~/bin/screen-toggle.sh
