@@ -74,7 +74,7 @@
 	path = vim/vim/bundle/vim-unite
 	url = git@github.com:Shougo/unite.vim.git
 [submodule "vim/vim/bundle/vim-fastunite"]
-	path = vim/vim/bundle/vim-fastunite
+	path = vim/vim/disabled/vim-fastunite
 	url = git@github.com:rstacruz/vim-fastunite.git
 [submodule "vim/vim/bundle/vim-vimproc"]
 	path = vim/vim/bundle/vim-vimproc
