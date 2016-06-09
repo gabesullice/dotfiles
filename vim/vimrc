@@ -48,9 +48,9 @@ let g:gitgutter_realtime = 1
 let g:go_disable_autoinstall = 0
 
 "unite settings
-map <C-p> :Unite file_rec<CR> i
-map <leader>ur :Unite file_mru<CR> i
-map <leader>ub :Unite file buffer<CR> i
+map <C-p> :Unite file_rec<CR>
+map <leader>ur :Unite file_mru<CR>
+map <leader>ub :Unite file buffer<CR>
 
 "neocomplete settings
 let g:neocomplete#enable_at_startup = 1
