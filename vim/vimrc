@@ -81,6 +81,8 @@ let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/
 
 set path=$PWD/**
 
+map <C-S>c :w !xclip -sel c<CR>
+
 "Neosnippets
 "" Plugin key-mappings.
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
