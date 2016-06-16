@@ -129,3 +129,11 @@ if has('statusline')
   let g:syntastic_enable_signs=1
   set statusline+=%=%-14.(%l,%c%V%)\ %p%% " Right aligned file nav info
 endif
+
+au FileType go nmap <leader>gb <Plug>(go-build)
+au FileType go nmap <leader>gt <Plug>(go-test)
+au FileType go nmap <leader>gf <Plug>(go-test-func)
+au FileType go nmap <leader>gi <Plug>(go-imports)
+au FileType go nmap <leader>gd <Plug>(go-doc-vertical)
+au FileType go nmap <leader>d <Plug>(go-def)
+au FileType go nmap <leader>dl <Plug>(go-def-pop)
