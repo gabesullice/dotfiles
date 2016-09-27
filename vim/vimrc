@@ -82,11 +82,14 @@ let g:vdebug_options= {
 "\ "path_maps" : {"/var/www": ""}
 let g:vdebug_options["watch_window_style"] = "compact"
 "let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/ltlt/ltlt-drupal/docroot"}
-"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/c4l/c4l-platform/public_html"}
-let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/rema/rema-main/public_html"}
-"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/core_contrib/jsonapi/docroot"}
-"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/core_contrib/drupal/docroot"}
-"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/core_contrib/connection/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/c4l/c4l-platform-drupal/public_html"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/stanford/pts/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/newsu/newsu-main/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/rema/rema-main/public_html"}
+let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/aspireit/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/contrib/jsonapi/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/contrib/drupal/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/contrib/connection/docroot"}
 "let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/github.com/gabesullice/form-checker-example/docroot"}
 "let g:vdebug_options['server'] = ""
 
