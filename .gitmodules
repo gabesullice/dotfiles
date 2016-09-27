@@ -94,3 +94,6 @@
 [submodule "vim/vim/bundle/syntastic"]
 	path = vim/vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/vim/bundle/sourcegraph-vim"]
+	path = vim/vim/bundle/sourcegraph-vim
+	url = https://github.com/sourcegraph/sourcegraph-vim.git
