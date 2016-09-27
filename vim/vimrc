@@ -145,3 +145,6 @@ au FileType go nmap <leader>gi <Plug>(go-imports)
 au FileType go nmap <leader>gd <Plug>(go-doc-vertical)
 au FileType go nmap <leader>d <Plug>(go-def)
 au FileType go nmap <leader>dl <Plug>(go-def-pop)
+
+" Make vim read the current line
+"map <Space>l :.w ! espeak --stdin --stdout --punct <bar> paplay<CR><CR>
