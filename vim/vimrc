@@ -44,6 +44,9 @@ set pastetoggle=<F4>
 let g:gitgutter_signs = 1
 let g:gitgutter_realtime = 1
 
+"vim-sourcegraph settings
+let g:SOURCEGRAPH_AUTO = "false"
+
 "vim-go settings
 let g:go_disable_autoinstall = 0
 
