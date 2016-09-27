@@ -13,7 +13,8 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+#font pango:monospace 8
+font pango:Source Code Pro for Powerline,monospace 9
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -169,8 +170,8 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #d
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
 
 # # Touchpad controls
 # bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
@@ -180,3 +181,22 @@ bindsym Print exec import -window root ~/Pictures/screenshot-`date +%Y-%m-%d-%k.
 
 # Toggle display between built-in and monitor
 bindsym XF86Search exec ~/bin/screen-toggle.sh
+
+# Reset .xprofile config
+#bindsym XF86LaunchA exec ~/bin/load-xprofile.sh
+bindsym XF86Explorer exec ~/bin/load-xprofile.sh
+
+# Assign terminals to workspace 1
+assign [title="^Terminal$"] 1
+
+# Assign terminals to workspace 1
+assign [class="^chromium$"] 2
+
+# Assign terminals to workspace 1
+assign [class="^konversation$"] 3
+
+# Assign terminals to workspace 1
+assign [class="^Slack$"] 3
+
+# Assign terminals to workspace 1
+assign [title="^Google Hangouts"] 3
