@@ -55,6 +55,11 @@ map <C-p> :Unite file_rec<CR>
 map <leader>ur :Unite file_mru<CR>
 map <leader>ub :Unite file buffer<CR>
 
+"drocker
+map <leader>dr :!drocker<Space>
+map <leader>dre :!drocker errors<CR>
+map <leader>drc :!drocker drush cr<CR>
+
 "neocomplete settings
 let g:neocomplete#enable_at_startup = 1
 
