@@ -88,6 +88,7 @@ let g:vdebug_options["watch_window_style"] = "compact"
 "let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/newsu/newsu-main/docroot"}
 "let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/rema/rema-main/public_html"}
 let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/aspireit/docroot"}
+"let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/aten/aspirations/docroot"}
 "let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/contrib/jsonapi/docroot"}
 "let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/contrib/drupal/docroot"}
 "let g:vdebug_options['path_maps'] = {"/var/www/html": "/home/gabe/projects/contrib/connection/docroot"}
