@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -i
+set -e
 
 main() {
   grep -A1 $1 ~/.ssh/config
