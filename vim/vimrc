@@ -141,6 +141,8 @@ if has('statusline')
   set statusline+=%=%-14.(%l,%c%V%)\ %p%% " Right aligned file nav info
 endif
 
+let g:syntastic_javascript_checkers = ['eslint']
+
 au FileType go nmap <leader>gb <Plug>(go-build)
 au FileType go nmap <leader>gt <Plug>(go-test)
 au FileType go nmap <leader>gf <Plug>(go-test-func)
