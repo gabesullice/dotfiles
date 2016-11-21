@@ -29,6 +29,7 @@ set expandtab
 set smarttab
 set number
 set relativenumber
+set modeline
 
 "Column width
 set colorcolumn=80
@@ -153,3 +154,5 @@ au FileType go nmap <leader>dl <Plug>(go-def-pop)
 
 " Make vim read the current line
 "map <Space>l :.w ! espeak --stdin --stdout --punct <bar> paplay<CR><CR>
+au BufRead,BufNewFile *.install set filetype=php
+au BufRead,BufNewFile *.inc set filetype=php
