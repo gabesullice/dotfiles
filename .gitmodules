@@ -19,9 +19,6 @@
 [submodule "git/git-flow-completion"]
 	path = git/git-flow-completion
 	url = git@github.com:bobthecow/git-flow-completion.git
-[submodule "terminal/osx-terminal.app-colors-solarized"]
-	path = terminal/osx-terminal.app-colors-solarized
-	url = git@github.com:tomislav/osx-terminal.app-colors-solarized.git
 [submodule "vim/.vim/bundle/vdebug"]
 	path = vim/vim/bundle/vdebug
 	url = git@github.com:joonty/vdebug.git
@@ -34,9 +31,6 @@
 [submodule "vim/.vim/bundle/vim-gitgutter"]
 	path = vim/vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
-[submodule "applications/phpstorm/intellij-colors-solarized"]
-	path = applications/phpstorm/intellij-colors-solarized
-	url = https://github.com/jkaving/intellij-colors-solarized.git
 [submodule "vim/.vim/bundle/vim-go"]
 	path = vim/vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
@@ -49,9 +43,6 @@
 [submodule "vim/.vim/bundle/nerdtree"]
 	path = vim/vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "applications/adium/adium-solarized"]
-	path = applications/adium/adium-solarized
-	url = https://github.com/ezanol/Adium-Solarized.git
 [submodule "shared/powerline"]
 	path = shared/powerline
 	url = git@github.com:Lokaltog/powerline.git
@@ -97,3 +88,10 @@
 [submodule "vim/vim/bundle/sourcegraph-vim"]
 	path = vim/vim/bundle/sourcegraph-vim
 	url = https://github.com/sourcegraph/sourcegraph-vim.git
+[submodule "drupal/aten-coder"]
+	path = drupal/aten-coder
+	url = git@bitbucket.org:atendesigngroup/aten-coder.git
+[submodule "drupal/coder"]
+	path = drupal/coder
+	url = https://git.drupal.org/project/coder.git
+	branch = 8.x-2.x
