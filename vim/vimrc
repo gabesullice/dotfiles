@@ -51,10 +51,21 @@ let g:SOURCEGRAPH_AUTO = "false"
 "vim-go settings
 let g:go_disable_autoinstall = 0
 
-"unite settings
-map <C-p> :Unite file_rec<CR>
-map <leader>ur :Unite file_mru<CR>
-map <leader>ub :Unite file buffer<CR>
+" Unite
+"call unite#filters#matcher_default#use(['matcher_fuzzy'])
+let g:unite_source_rec_async_command=['ag', '--nocolor', '--nogroup', '--hidden', '-g', '']
+nnoremap <C-p> :<C-u>Unite -no-split -buffer-name=files   -start-insert file_rec/async<cr>
+nnoremap <C-f> :<C-u>Unite -no-split -buffer-name=files   -start-insert file<cr>
+nnoremap <C-n> :<C-u>Unite -no-split -buffer-name=mru     -start-insert file_mru<cr>
+nnoremap <C-o> :<C-u>Unite -no-split -buffer-name=outline -start-insert outline<cr>
+nnoremap <C-y> :<C-u>Unite -no-split -buffer-name=yank    history/yank<cr>
+nnoremap <C-b> :<C-u>Unite -no-split -buffer-name=buffer  buffer<cr>
+
+" Custom mappings for the unite buffer
+autocmd FileType unite call s:unite_settings()
+function! s:unite_settings()
+  imap <buffer> <Esc>   <Plug>(unite_exit)
+endfunction
 
 "drocker
 map <leader>dr :!drocker<Space>
@@ -117,6 +128,9 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
+
+"Syntastic toggle
+map <F6> :SyntasticToggleMode<CR>
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
