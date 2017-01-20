@@ -14,3 +14,12 @@ alias vim_hosts="sudo vim /etc/hosts"
 
 # Helper to copy a public key to the clipboard
 alias pubkey="xclip -sel c ~/.ssh/id_rsa.pub"
+
+# Takes me to my github directory.
+alias githome="cd $HOME/projects/github.com/gabesullice"
+
+# Takes me to Aten's bitbucket namespace
+alias bithome="cd $HOME/projects/bitbucket.org/atendesigngroup"
+
+# Opens up a new temp file with vim
+alias play="vim `mktemp`"
