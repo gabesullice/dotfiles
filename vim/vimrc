@@ -141,8 +141,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-let g:syntastic_php_checkers = ['phpcs']
-let g:syntastic_php_phpcs_args="--standard=Drupal"
+let g:syntastic_php_checkers = []
+"let g:syntastic_php_checkers = ['phpcs']
+"let g:syntastic_php_phpcs_args="--standard=Drupal %"
 
 if has('statusline')
   set laststatus=2
@@ -174,8 +175,23 @@ map <leader>nb :!npm run build<CR>
 
 " Make vim read the current line
 "map <Space>l :.w ! espeak --stdin --stdout --punct <bar> paplay<CR><CR>
+au BufRead,BufNewFile *.module set filetype=php
 au BufRead,BufNewFile *.install set filetype=php
 au BufRead,BufNewFile *.theme set filetype=php
 au BufRead,BufNewFile *.inc set filetype=php
 
 nmap <Space> zA
+
+func! WordProcessorMode()
+  setlocal formatoptions=1
+  setlocal noexpandtab
+  map j gj
+  map k gk
+  setlocal spell spelllang=en_us
+  "set thesaurus+=/Users/sbrown/.vim/thesaurus/mthesaur.txt
+  set complete+=s
+  set formatprg=par
+  setlocal wrap
+  setlocal linebreak
+endfu
+com! WP call WordProcessorMode()
