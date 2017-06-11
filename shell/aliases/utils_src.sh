@@ -12,3 +12,10 @@ alias clip="xclip -sel c"
 # Does an A record lookup
 # Example `findip sullice.com`
 alias findip="host -t A"
+
+# Export environment from a file
+exportfile () {
+  set -o allexport
+  source $1
+  set +o allexport
+}

@@ -18,7 +18,3 @@ export PATH="/home/gabe/.platformsh/bin:$PATH"
 
 # Composer PATH
 export PATH="/home/gabe/vendor/bin:$PATH"
-
-export PATH=$PATH:/home/gabe/bin
-
-source '/home/gabe/lib/azure-cli/az.completion'
