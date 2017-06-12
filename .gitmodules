@@ -25,9 +25,6 @@
 [submodule "drupal/drush"]
 	path = drupal/drush
 	url = git@github.com:drush-ops/drush.git
-[submodule "drupal/drupalvim"]
-	path = drupal/drupalvim
-	url = http://git.drupal.org/project/vimrc.git
 [submodule "vim/.vim/bundle/vim-gitgutter"]
 	path = vim/vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
@@ -95,3 +92,6 @@
 	path = drupal/coder
 	url = https://git.drupal.org/project/coder.git
 	branch = 8.x-2.x
+[submodule "vim/vim/bundle/typescript-vim"]
+	path = vim/vim/bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
