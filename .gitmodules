@@ -82,12 +82,6 @@
 [submodule "vim/vim/bundle/syntastic"]
 	path = vim/vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "vim/vim/bundle/sourcegraph-vim"]
-	path = vim/vim/bundle/sourcegraph-vim
-	url = https://github.com/sourcegraph/sourcegraph-vim.git
-[submodule "drupal/aten-coder"]
-	path = drupal/aten-coder
-	url = git@bitbucket.org:atendesigngroup/aten-coder.git
 [submodule "drupal/coder"]
 	path = drupal/coder
 	url = https://git.drupal.org/project/coder.git
@@ -95,3 +89,6 @@
 [submodule "vim/vim/bundle/typescript-vim"]
 	path = vim/vim/bundle/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "vim/vim/bundle/vim-airline"]
+	path = vim/vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
