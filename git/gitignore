@@ -1,6 +1,7 @@
 sites/default/drushrc.php
 stage_file_proxy
 my.Makefile*
+.phpcs-cache
 
 *.swp
 

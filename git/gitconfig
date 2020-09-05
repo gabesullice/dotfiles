@@ -2,6 +2,9 @@
   name = Gabriel SULLICE
   email = gabriel@sullice.com
 [alias]
+  ap = "!curl -Ss \"$1\" | git apply -3 #"
+  inter = "!git diff -M5% HEAD^ HEAD > interdiff.txt"
+  patch = "!git diff -M5% \"$1\" HEAD > \"$2\"-\"$3\".patch #"
   aa = add -A :/
   br = branch -av
   brd = branch -D
@@ -21,8 +24,6 @@
   lg = log -p
   lsd = log --graph --decorate --pretty=oneline --abbrev-commit --all
   mff = merge --no-ff
-  pa = push --all
-  pat = !git pa && git pt
   pt = push --tags
   pua = push -u --all
   pub = !git push --all && git push --tags && git push --all acquia && git push --tags acquia
