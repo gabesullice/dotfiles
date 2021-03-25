@@ -41,9 +41,10 @@
 [init]
   #templatedir = ~/.git_template
 [core]
+  #hooksPath = $GIT_DIR/hooks
   excludesfile = ~/.gitignore
   editor = vim
   autocrlf = input
   filemode = false
 [commit]
-  gpgsign = true
+  ;gpgsign = true

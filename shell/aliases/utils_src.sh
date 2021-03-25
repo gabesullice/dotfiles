@@ -19,3 +19,21 @@ exportfile () {
   source $1
   set +o allexport
 }
+
+cdiff () {
+  if [[ -f "$1" ]]; then
+    colordiff < $1 | less -R
+  else
+    curl -Ss $1 | colordiff | less -R
+  fi
+}
+
+pcd () {
+  cd -P "$HOME/src/projects/$1"
+}
+
+refresh_projects () {
+  complete -W "$(ls $HOME/src/projects)" pcd
+}
+
+refresh_projects
